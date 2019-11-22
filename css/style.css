@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+@font-face {
+    font-family: "Papaya Sunrise";
+    src: url("../fonts/PapayaSunrise-OzdO.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --azul: #44cef9;
+    --cinzaclaro: #e4d9f1;
+    --branco: #FCFCFC;
+    --grafite: #24272B;
+    --rosa: #FFC2E7;
+    --turquesa: #50d8d7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}

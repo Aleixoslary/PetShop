@@ -1,0 +1,16 @@
+.bemvindo{
+    width: 70vw;
+    height: 30vh;
+    background-color: var(--turquesa);
+    border-radius: 0px 100px 100px 0px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.animated{
+    animation-delay: 5s;
+}
+
+.conteudo_servicos{
+    display: none;
+}

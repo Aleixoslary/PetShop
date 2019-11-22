@@ -1,0 +1,114 @@
+/* PÁGINA DE SERVIÇOS */
+
+.conteudo_servicos {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15vw;
+    padding: 1vw;
+    margin: 1vw;
+    align-items: center;
+    text-align: justify;
+}
+
+.card:hover {
+    background-color: lightcyan;
+}
+
+.card img {
+    width: 5vw;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 1vw;
+    font-size: 1.3vw;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.servicos {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* PÁGINA DE INFORMAÇÕES */
+
+/* depois tem que redimencionar elas pra não ficarem tortas */
+
+.informacoes {
+    padding-bottom: 15px;
+    padding-top: 1vw;
+    display: flex;
+    justify-content: center;
+    /* height: 36vw; */
+    background-image: url('../img/leaves.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.conteudo_informacoes {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: indigo; */
+    margin-bottom: 15vw;
+    opacity: 1;
+}
+
+.card_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 14vw;
+    align-items: center;
+    text-align: center;
+}
+
+.card_info img {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+}
+
+.texto_info {
+    /* display: none; */
+    background-color: #FCFCFC;
+    font-size: .9vw;
+    border: solid 2px #50d8d7;
+    border-radius: 10px;
+    padding-bottom: 0px;
+}
+
+.impar {
+    margin-top: 6vw;
+    padding-top: 6vw;
+}
+
+/* .texto_info_abre {
+    /* texto que aparece */
+
+/* padding: 0.5vw;
+    margin-top: 2vw; */
+
+/* background-color: #FCFCFC;
+    font-size: .9vw;
+    border: solid 2px #50d8d7;
+    border-radius: 10px;
+    padding-bottom: 0px; 
+    } 
+*/
